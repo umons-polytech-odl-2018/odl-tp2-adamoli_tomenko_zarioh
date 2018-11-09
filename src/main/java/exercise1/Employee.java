@@ -1,15 +1,24 @@
 package exercise1;
 
-public class Employee {
+public abstract class Employee {
+	protected String name;
+	protected int sales=0;
+	protected int workedHours=0;
+	protected int salary;
+
 	public int computeSalary() {
 		return 0;
 	}
 
-	public void sell() { }
+	public void sell() {
+		sales++;
+	}
 
-	public void workOneHour() { }
+	public void workOneHour() {
+		workedHours++;
+	}
 
 	public String getName() {
-		return null;
+		return name;
 	}
 }
