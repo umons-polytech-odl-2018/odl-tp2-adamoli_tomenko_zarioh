@@ -1,14 +1,16 @@
 package exercise1;
 
 public class FixedSalaryEmployee extends Employee{
+	private int fixedSalary;
 	public FixedSalaryEmployee(String a, int b)
 	{
-		name=a;
-		salary=b;
+		super(a);
+		fixedSalary=b;
 	}
 
-	public int FixedSalaryEmployee()
+	@Override
+	public int computeSalary()
 	{
-		return salary;
+		return fixedSalary;
 	}
 }
