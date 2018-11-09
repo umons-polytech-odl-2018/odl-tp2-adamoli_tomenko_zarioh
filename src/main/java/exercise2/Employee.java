@@ -1,6 +1,6 @@
 package exercise2;
 
-public abstract class Employee {
+public abstract class Employee implements Payable {
 	protected String name;
 	protected int sales=0;
 	protected int workedHours=0;
