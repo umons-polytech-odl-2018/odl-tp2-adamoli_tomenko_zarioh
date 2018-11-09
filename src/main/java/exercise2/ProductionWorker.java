@@ -1,11 +1,19 @@
 package exercise2;
 
-public class ProductionWorker {
-	public void produceOnePiece() {
+public class ProductionWorker implements Payable {
+	private int producedPieceRate;
+	private int retribution=0;
 
+	public ProductionWorker(int a)
+	{
+		producedPieceRate=a;
+	}
+
+	public void produceOnePiece() {
+		retribution++;
 	}
 
 	public int computeSalary() {
-		return 0;
+		return retribution*producedPieceRate;
 	}
 }
