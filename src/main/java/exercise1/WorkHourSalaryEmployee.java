@@ -1,5 +1,6 @@
 package exercise1;
-
+/**
+ * classe ou l'emplyé est payé par heure*/
 public class WorkHourSalaryEmployee extends Employee{
 	private int hourRate;
 

@@ -1,5 +1,7 @@
 package exercise1;
-
+/**
+ * classe ou le salaire =
+ * salaire de base + vente*commision*/
 public class BaseSalaryPlusCommissionEmployee extends Employee{
 	private int baseSalary;
 	private int commission;

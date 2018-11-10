@@ -1,5 +1,11 @@
 package exercise1;
-
+//import statement
+/**
+ * @author ADAMOLI_TOMENKO_ZARIOH
+ * @version 1.0
+ */
+/**
+ * this is the main for exercise1*/
 public class Exercise1 {
 	public Employee buildFixedSalaryEmployee(String name, int fixedSalary) {
 		return new FixedSalaryEmployee(name, fixedSalary);
