@@ -11,4 +11,6 @@ public class Exercise3 {
 			})
 		});
 	}
-}
+}//on crée un panel (une fenetre donc) qui a besoin d'un drawable (qui va être dessiné dessus) et ce drawable,
+//c'est un polygone convexe de 4 points
+//pour lancer l'exo 3, click droit sur le fichier dans l'explorateur à gauche, puis run !

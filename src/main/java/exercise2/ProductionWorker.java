@@ -15,5 +15,6 @@ public class ProductionWorker implements Payable {
 
 	public int computeSalary() {
 		return retribution*producedPieceRate;
-	}
+	}//on remarque qu'il n'y a pas d'override
+	//de la méthode compute salary quand on implément depuis l'interface
 }

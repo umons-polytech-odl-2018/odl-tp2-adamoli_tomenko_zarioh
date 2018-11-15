@@ -1,5 +1,5 @@
 package exercise3;
-
+//meme que tp1
 public class Rectangle extends ConvexPolygon {
 	private Point upperLeft;
 	private Point lowerRight;

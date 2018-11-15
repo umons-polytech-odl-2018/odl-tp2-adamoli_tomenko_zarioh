@@ -1,5 +1,7 @@
 package exercise3;
-
+//reprise du code du tp1 ou du template fourni
+//implémente l'interface (drawable)
+//remarquer l'override de la fonction de l'interface
 public class ConvexPolygon implements Drawable {
 	private Point vertices [];
 

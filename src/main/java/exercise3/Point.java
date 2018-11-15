@@ -1,5 +1,5 @@
 package exercise3;
-
+//meme que tp1
 public class Point {
 	private int x;
 	private int y;

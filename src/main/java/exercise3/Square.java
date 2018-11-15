@@ -1,5 +1,5 @@
 package exercise3;
-
+//meme que tp1
 public class Square extends Rectangle {
 	private Point vertex;
 	private int sideLength;
